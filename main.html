@@ -8,7 +8,74 @@
 
 <body>
 	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
+	<div class="container text-center mt-4">
+      <h2>Cards Gallery</h2>
+      <div class="row justify-content-center">
+         <!-- Card 1 -->
+        <div class="card m-2">
+            <div class="card-body">
+               <img class="lightbox" src="https://storage.googleapis.com/acciojob-open-file-collections/image1.jpg" alt="image1"
+                  data-toggle="modal" data-target="#lightboxModal" onclick="showImage(this)">
+               <h6>image1</h6>
+               <p>About image1</p>
+            </div>
+         </div>
+         <div class="card m-2">
+            <div class="card-body">
+               <img class="lightbox" src="https://storage.googleapis.com/acciojob-open-file-collections/image2.jpg" alt="image2"
+                  data-toggle="modal" data-target="#lightboxModal" onclick="showImage(this)">
+               <h6>image2</h6>
+               <p>About image2</p>
+            </div>
+         </div>
+         <div class="card m-2">
+            <div class="card-body">
+               <img class="lightbox" src="https://storage.googleapis.com/acciojob-open-file-collections/image3.jpg" alt="image3"
+                  data-toggle="modal" data-target="#lightboxModal" onclick="showImage(this)">
+               <h6>image3</h6>
+               <p>About image3</p>
+            </div>
+         </div>
+         <div class="card m-2">
+            <div class="card-body">
+               <img class="lightbox" src="https://storage.googleapis.com/acciojob-open-file-collections/image4.jpg" alt="image4"
+                  data-toggle="modal" data-target="#lightboxModal" onclick="showImage(this)">
+               <h6>image4</h6>
+               <p>About image4</p>
+            </div>
+         </div>
+         <div class="card m-2">
+            <div class="card-body">
+               <img class="lightbox" src="https://storage.googleapis.com/acciojob-open-file-collections/image5.jpg" alt="image5"
+                  data-toggle="modal" data-target="#lightboxModal" onclick="showImage(this)">
+               <h6>image5</h6>
+               <p>About image5</p>
+            </div>
+         </div>
+         <div class="card m-2">
+            <div class="card-body">
+               <img class="lightbox" src="https://storage.googleapis.com/acciojob-open-file-collections/image6.jpg" alt="image6"
+                  data-toggle="modal" data-target="#lightboxModal" onclick="showImage(this)">
+               <h6>image6</h6>
+               <p>About image6</p>
+            </div>
+         </div>
+      </div>
+   </div>
+
+
+   <!-- Modal for Lightbox -->
+ 
+
+   <!-- Bootstrap JS, Popper.js -->
+   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+   <script>
+      function showImage(element) {
+         document.getElementById('lightbox-img').src = element.src;
+      }
+   </script>
 </script>
 
 </body>
