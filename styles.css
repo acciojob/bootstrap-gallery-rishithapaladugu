@@ -1,1 +1,19 @@
 /*  your css code here. If applicable */
+img {
+         width: 100%;
+         height: auto;
+         cursor: pointer;
+      }
+
+      .card-body {
+         margin: 10px;
+         width: 18rem;
+      }
+
+      .modal-dialog {
+         max-width: 80%;
+      }
+
+      .modal-img {
+         width: 100%;
+      }
